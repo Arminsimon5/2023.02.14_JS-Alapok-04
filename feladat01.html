@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feladat 01</title>
+    <script src="feladat01.js"></script>
+  </head>
+  <body>
+    <h1>Feladat 01</h1>
+    <form name="atalakitas" method="GET">
+      <div>
+        <label for="beviteli_input">Ide írd az átalakítani kívánt szöveget:</label>
+
+        <input type="text" name="beviteli" id="beviteli_input" placeholder="Ide gépeld"/>
+      </div>
+      <div>
+        <label for="kisbetu">Kisbetű:</label>
+        <input type="radio" name="valaszto" id="kisbetu" value="kisbetu" />
+      </div>
+      <div>
+        <label for="nagybetu">Nagybetű:</label>
+        <input type="radio" name="valaszto" id="nagybetu" value="nagybetu" />
+      </div>
+      <button type="button" id="atalakito">Átalakítás</button>
+      <div>
+        <p id="visszaJelzes"></p>
+      </div>
+    </form>
+  </body>
+</html>
